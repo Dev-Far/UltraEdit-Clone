@@ -1,0 +1,204 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+header{
+  box-shadow: 0px 0px 21px ;
+  border-radius: 0px 0px 7px 12px;
+  position: sticky;
+  top: 0px;
+  margin: 0px auto;
+  background: #DFDFDF;
+  width: 600px;
+  height: 50px;
+  display: grid;
+  border: 2px solid white;
+  grid-template-columns: 125px 85px 80px 80px 80px 80px 40px;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+/*  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+*/
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: row;
+}
+.about{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing{
+  grid-column: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resources{
+  grid-column: 5/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.translate{
+  justify-self: end;
+  color: #696969;
+  font-size: 36px;
+}
+.about:hover, .resources:hover, .products:hover, .pricing:hover, .translate:hover{
+  color: #B0B0B0;
+}
+.main{
+  /*
+  width: 500px;
+  height: 1000px;
+  background: #BCBCBC;
+  */
+  display: flex;
+  margin: 40px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30pt;
+}
+.h-span{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.main > img{
+  margin: 0px 12px;
+}
+.main-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-p > p{
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-size: 16pt;
+  font-style: normal;
+  width: 400px;
+  text-align: center;
+}
+.main-p > button{
+  margin: 12px auto;
+  background: #00CAD1;
+  padding: 10px 25px;
+  border: 0px solid white;
+  border-radius: 4px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: bold;
+}
+.top-head{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.h-para{
+  font-weight: 400;
+  font-size: 24pt;
+  margin: 0px 4px;
+}
+.h-version{
+  font-weight: 150;
+  align-items: end;
+}
+.top-head > img{
+  margin: 0px -28px;
+}
+.mainp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-page{
+  width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.download-article{
+  text-align: center;
+  width: 240px;
+  height: 140px;
+  background: #F2F3F2;
+  margin: 5px 0px;
+  border-radius: 1px;
+  align-items: center;
+  
+}
+.b-main{
+  background: #42B737;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  margin-right: 1px;
+  border: 0px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.b-main64{
+  background: #32BBC4;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  margin-left: 1px;
+  border: 0px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.download-article > h2{
+  margin: 10px 0px;
+}
+.mainp{
+  background-color: #E5E5E5;
+}

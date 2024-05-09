@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+font-size: 15pt;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
